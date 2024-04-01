@@ -1,0 +1,99 @@
+@charset "utf-8";
+* {
+  padding-right: 0px;
+  margin: 0px;
+}
+body {
+  background-image: repeating-linear-gradient(-40deg, #DDD, #DDD 10px, #F5F5F5 10px, #F5F5F5 12px);
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+/*===標題區===*/
+.header {
+  background-image: url("/images/banner.jpg");width: 1200px;height: 300px;
+  position: relative;
+  border-bottom: #5d5d5d 4px solid;
+}
+.header h1 {
+  position: absolute;
+  left: 182px;
+  top: 60px;
+}
+.header h1 img {}
+.box {
+  display: flex;
+}
+/*===左右兩側欄===*/
+.nav {
+  border-radius: 0px 0px 20px 20px;
+  padding: 40px 20px;
+}
+.nav h3 {
+  background-color: #aab599;
+  color: #FFE57A;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 20px 20px 0px 0px;
+  border-bottom: #958269 5px solid;
+}
+.nav ul {
+  background-color: rgba(231, 182, 152, 0.6);
+  padding: 20px;
+}
+.nav li {
+  list-style: none;
+}
+.nav li a {
+  display: block;
+  line-height: 60px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+}
+.nav li a:hover {}
+.nav li a b {
+  font-family: entypo;
+  font-size: 50px;
+  font-weight: normal;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+@font-face {
+  font-family: entypo;
+  src: url("Entypo-webfont.ttf"), url("Entypo-webfont.woff"), url("Entypo-webfont.eot"), url("Entypo-webfont.svg");
+}
+/*===內容區===*/
+.content {
+  width: 700px;
+  background-color: #fff3d1;
+  padding: 40px 20px;
+}
+.content h3 {
+  color: #644d1a;
+  border-left: #ecb8ef 20px solid;
+  text-indent: 8px;
+  margin-bottom: 15px;
+}
+.content img {
+  border: #FFF 6px solid;
+  box-shadow: 2px 3px 5px #000;
+  float: left;
+  margin: 0 15px 15px 0;
+}
+.content p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/*===版權宣告區===*/
+.footer{
+    background-color: #564d40;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;   
+}
+.footer h2{ }
+.footer h4{ }
